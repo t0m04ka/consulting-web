@@ -1,0 +1,809 @@
+/* ------ HOME PAGE ------ */
+
+
+/*992-1200*/
+@media screen and (max-width: 1200px) {
+    .container {
+        width: 960px;
+    }
+    .menu__item {
+        font-size: 14px;
+    }
+
+    .main {
+        padding: 75px 0 98px;
+    }
+
+
+    .btn__middle {
+        top: 333px;
+        left: 401px;
+    }
+
+    .about__card {
+        width: 316px;
+    }
+    
+    .footer__info {
+        width: 226px;
+    }
+
+    .footer__wrap {
+        gap: 21px;
+    }
+}
+/*768-992*/
+@media screen and (max-width: 992px) {
+    .container {
+        width: 720px;
+    }
+
+    .header__list {
+        display: none;
+    }
+
+    .trust__list {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .trust__item {
+        width: 325px;
+    }
+
+    .btn__middle {
+        top: 601px;
+        left: 285px;
+    }
+
+    .lab__wrap {
+        flex-direction: column;
+    }
+
+    .info__wrap {
+        flex-direction: column;
+    }
+
+    .news__img {
+        width: 56px;
+    }
+
+    .info__title_news::after {
+        width: 100%;
+    }
+
+    .btn__footer {
+        display: none;
+    }
+
+    .footer__info {
+        width: 203px;
+    }
+}
+/*576-768*/
+@media screen and (max-width: 768px){
+    .container {
+        width: 540px;
+    }
+
+    .btn__middle {
+        top: 875px;
+        left: 179px;
+    }
+
+    .about__card {
+        width: 100%;
+        text-align: center;
+    }
+
+    .footer__wrap {
+        flex-direction: column;
+    }
+
+    .footer__text-wrap {
+        padding-top: 0;
+        flex-direction: column;
+    }
+
+    .footer__img {
+        width: 40%;
+        margin: 0 auto;
+    }
+
+    .footer__info {
+        text-align: center;
+        width: 100%;
+    }
+    
+    .rights__logo {
+        justify-content: center;
+        margin: 20px 0;
+    }
+
+    .btn__footer {
+        display: block;
+    }
+
+    .btn__footer {
+        display: flex;
+        margin: 20px auto 0;
+    }
+}
+/*320-576*/
+@media screen and (max-width: 576px) {
+    .container {
+        width: 90%;
+    }
+
+    .header__img {
+        width: 40%;
+    }
+
+    .about__wrap {
+        justify-content: center;
+    }
+
+    .btn {
+        width: 118px;
+        height: 27px;
+        font-size: 10px;
+    }
+
+    h1 {
+        font-size: 35px;
+    }
+
+    .main__text {
+        font-size: 15px;
+        width: 90%;
+    }
+
+    .main__icons {
+        width: 144px;
+        padding: 7px 4px;
+    }
+
+    .fa-facebook-official {
+        border: solid 2px #23599c;
+    }
+    
+    .fa-twitter {
+        border: solid 2px #43c9fd;
+    }
+    
+    .fa-telegram {
+        border: solid 2px #25a3d4;
+    }
+
+    .btn__middle {
+        left: 85px;
+    }
+
+    .mission__desc {
+        flex-direction: column;
+    }
+
+    .mission__text_left {
+        padding-right: 0;
+    }
+
+    .info__btn {
+        margin-bottom: 40px;
+    }
+}
+
+/* ------ ABOUT ------ */
+
+/* ------ Media Queries ------ */
+
+/*992-1200*/
+@media screen and (max-width: 1200px) {
+    .container {
+        width: 960px;
+    }
+
+    .menu__item {
+        font-size: 14px;
+    }
+
+    .benefits__row {
+        width: 40%;
+    }
+
+    .benefits__text {
+        gap: 30px;
+    }
+
+
+    .power__item {
+        width: 100%;
+    }
+
+    .footer__info {
+        width: 226px;
+    }
+
+    .footer__wrap {
+        gap: 21px;
+    }
+}
+/*768-992*/
+@media screen and (max-width: 992px) {
+    .container {
+        width: 720px;
+    }
+
+    .header__menu {
+        display: none;
+    }
+
+    .services__wrap {
+        flex-direction: column;
+    }
+
+    .services__list {
+        justify-content: space-between;
+    }
+
+    .services__main {
+        text-align: center;
+        margin-bottom: 50px;
+    }
+
+    .benefits__row {
+        width: 50%;
+    }
+
+    .benefits__text {
+        justify-content: space-between;
+    }
+
+    .about__card {
+        width: 341px;
+    }
+
+    .footer__info {
+        width: 204px;
+    }
+
+    .footer__img {
+        width: 35%;
+    }
+
+    .benefits__item::after {
+        width: 90%;
+    }
+
+    .btn__footer {
+        display: none;
+    }
+}
+/*576-768*/
+@media screen and (max-width: 768px){
+    .container {
+        width: 540px;
+    }
+
+    .header__img {
+        width: 40%;
+    }
+
+    .power__gallery {
+        flex-wrap: wrap;
+    }
+
+    .services__item {
+        width: 114px;
+    } 
+
+    .gallery__item-wrap {
+        width: 45%;
+    }
+
+    .btn {
+        width: 152px;
+        height: 32px;
+        font-size: 14px;
+    }
+
+    .about__card {
+        width: 270px;
+    }
+
+    .footer__text {
+        font-size: 10px;
+    }
+
+    .footer__img {
+        width: 35%;
+        height: 20%;
+    }
+
+    .footer__info {
+        width: 173px;
+    }
+
+    .footer__text-wrap {
+        padding-top: 12px;
+    }
+
+    .footer {
+        padding-bottom: 20px;
+    }
+}
+/*320-576*/
+@media screen and (max-width: 576px) {
+    .container {
+        width: 90%;
+    }
+
+    .btn {
+        width: 101px;
+        height: 25px;
+        font-size: 10px;
+    }
+
+    .gallery__item-wrap {
+        width: 100%;
+    }
+
+    .services__title {
+        font-size: 28px;
+        margin-bottom: 10px;
+    }
+
+    .services__list {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .benefits__text {
+        flex-direction: column;
+    }
+
+    .benefits__row {
+        width: 100%;
+    }
+
+    .benefits__title {
+        font-size: 20px;
+        padding-bottom: 24px;
+    }
+    
+    .benefit__wrap {
+        flex-direction: column;
+    }
+
+    .power__gallery {
+        flex-direction: column;
+    }
+
+    .benefit__title {
+        font-size: 14px;
+    }
+
+    .power__title {
+        font-size: 20px;
+        padding-bottom: 30px;
+    }
+
+    .power__gallery {
+        gap: 15px;
+    }
+
+    .about__card {
+        text-align: center;
+    }
+
+    .footer__wrap {
+        flex-direction: column;
+    }
+
+    .footer__img {
+        width: 60%;
+        margin: 40px auto 0;
+    }
+
+    
+    .footer__info {
+        text-align: center;
+        width: 100%;
+    }
+    
+    .rights__logo {
+        justify-content: center;
+        margin: 20px 0;
+    }
+
+    .btn__footer {
+        display: block;
+    }
+
+    .btn__footer {
+        display: flex;
+        margin: 20px auto 0;
+    }
+
+    .footer__text-wrap {
+        padding-top: 0;
+        flex-direction: column;
+    }
+}
+
+
+/* ------ SERVICES------ */
+
+/* ------ Media Queries ------ */
+
+
+/*992-1200*/
+@media screen and (max-width: 1200px) {
+    .container {
+        width: 960px;
+    }
+    .menu__item {
+        font-size: 14px;
+    }
+    
+
+    .law__wrap {
+        gap: 10px;
+    }
+
+    .law__support {
+        gap: 21px;
+    }
+
+    .info__card {
+        width: 319px;
+    }
+
+    .info__wrap_bottom {
+        padding-top: 26px;
+    }
+
+    .footer__info {
+        width: 201px;
+    }
+}
+/*768-992*/
+@media screen and (max-width: 992px) {
+    .container {
+        width: 720px;
+        justify-content: space-between;
+    }
+
+    .header__menu {
+        display: none;
+    }
+
+    .services__wrap {
+        gap: 50px;
+    }
+
+    .services__main {
+        margin: 0 auto;
+    }
+
+    .law__list {
+        display: none;
+    }
+
+    .law__text {
+        width: 468px;
+    }
+
+    .law__support {
+        align-items: center;
+    }
+
+    .subcategory__wrap {
+        display: grid;
+    }
+
+    .subcategory__text {
+        width: 100%;
+    }
+    
+    .subcategory__navigation {
+        width: 100%;
+    }
+
+    .subcategory__consult {
+        width: 100%;
+    }
+
+    .info__card {
+        padding: 0 0 50px 10px;
+    }
+
+    .btn__footer {
+        display: none;
+    }
+    
+    .footer__info {
+        padding-top: 0px;
+    }
+
+    .footer {
+        padding: 40px 0 40px;
+    }
+
+    .footer__info_contact {
+        margin: 0 20px;
+        width: 365px;
+    }
+
+    .rights__logo {
+        margin-bottom: 26px;
+    }
+
+}
+/*576-768*/
+@media screen and (max-width: 768px) {
+    .container {
+        width: 540px;
+        justify-content: space-between;
+    }
+
+    .header__list {
+        display: none;
+    }
+
+    .services__item {
+        width: 181px;
+        height: 54px;
+        padding: 6px 0 0 4px;
+    }
+
+    .item__desc {
+        font-size: 11px;
+    }
+
+    .item__title {
+        font-size: 15px;
+    }
+
+    .law__text {
+        width: 332px;
+    }
+
+    .info__card {
+        width: 50%;
+        padding: 0 0 39px 10px;
+    }
+
+    .footer__img {
+        width: 40%;
+        height: 40%;
+    }
+
+    .footer__text{
+        font-size: 10px;
+    }
+}
+
+/*320-576*/
+@media screen and (max-width: 576px) {
+    .container {
+        width: 90%;
+    }
+
+    .header__img {
+        width: 40%;
+    }
+
+    .btn {
+        width: 108px;
+        height: 26px;
+        gap: 9px;
+        font-size: 10px;
+    }
+
+    .services__list {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .law__support {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .law__menu {
+        display: none;
+    }
+
+    .law__text {
+        width: 299px;
+        text-align: center;
+    }
+
+    .contact__btn {
+        padding: 1px 2px;
+        font-size: 12px;
+    }
+
+    .subcategory__consult {
+        padding: 10px 12px 14px 12px;
+    }
+
+    .consult__number {
+        font-size: 12px;
+    }
+
+    .info__card {
+        text-align: center;
+        width: 100%;
+    }
+ 
+    .footer__wrap {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer__info_contact {
+        width: 100%;
+        justify-content: center;
+        margin-top: 23px;
+    }
+
+    .rights__items {
+        justify-content: center;
+        display: grid;
+    }
+
+    .rights__logo {
+        margin: 26px 0;
+        justify-content: center;
+    }
+
+    .btn__footer {
+        display: none;
+    }
+}
+
+/* ------ CONTACTS ------ */
+
+/* ------ Media Queries ------ */
+
+
+/*992-1200*/
+@media screen and (max-width: 1200px) {
+    .container {
+        width: 960px;
+    }
+    
+    .offices__wrap {
+        gap: 232px;
+    }
+
+    .map__overlay {
+        right: 58px;
+    }
+}
+/*768-992*/
+@media screen and (max-width: 992px) {
+    .container {
+        width: 720px;
+    }
+
+    .offices__wrap {
+        gap: 82px;
+    }
+
+    .map__overlay {
+        position: static;
+        width: 100%;
+        margin: 20px 0;
+        border-radius: 7px;
+    }
+
+    .btn__footer {
+        display: none;
+    }
+
+    .footer__info {
+        width: 203px;
+    }
+
+    .footer__text-wrap {
+        padding-top: 0; 
+    }
+
+
+}
+/*576-768*/
+@media screen and (max-width: 768px){
+    .container {
+        width: 540px;
+    }
+
+    .offices__wrap {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .offices__wrap {
+        gap: 46px;
+    }
+
+    .overlay__right {
+        width: 55%;
+    }
+
+    .overlay__number {
+        font-size: 14px;
+    }
+    .overlay__mail {
+        font-size: 14px;
+    }
+
+    .overlay__address {
+        font-size: 14px;
+    }
+
+    .footer__text-wrap {
+        align-items: center;
+    }
+
+}
+/*320-576*/
+@media screen and (max-width: 576px) {
+    .container {
+        width: 90%;
+    }
+
+    .offices__list {
+        flex-direction: column;
+    }
+
+
+    .overlay__text {
+        flex-direction: column;
+    }
+
+    .overlay__right {
+        width: 100%;
+    }
+
+    .map__overlay {
+        height: 420px;
+    }
+
+    .overlay__desc {
+        margin-top: 10px;
+    }
+
+    .fa-facebook-official_overlay, .fa-twitter_overlay, .fa-telegram_overlay {
+        font-size: 15px;
+        border: solid 1px white;
+    }
+    
+    .overlay__icons {
+        gap: 2px;
+    }
+
+    .map__overlay {
+        padding: 30px;
+    }
+
+    .btn__footer {
+        display: flex;
+    }
+
+    .footer {
+        padding: 20px 0 20px;
+    }
+
+    .footer__img {
+        margin: 0 auto 0;
+    }
+
+    .footer__info_contact {
+        margin-top: 6px;
+    }
+    .footer__img {
+        width: 52%;
+    }
+}
